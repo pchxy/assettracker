@@ -1,0 +1,25 @@
+﻿<Window x:Class="AssetTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Asset Tracker" Height="450" Width="800">
+    <Grid>
+        <Button Content="Load Data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="30" Click="LoadButton_Click"/>
+
+        <!-- DataGrid for Asset Table -->
+        <DataGrid Name="assetDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,10,10" Height="150" Width="350"/>
+
+        <!-- DataGrid for Transaction Table -->
+        <DataGrid Name="transactionDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,50,10,10" Height="150" Width="350"/>
+
+        <!-- DataGrid for Employees Table -->
+        <DataGrid Name="employeesDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,10,10" Height="150" Width="350"/>
+
+        <!-- DataGrid for Location Table -->
+        <DataGrid Name="locationDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,210,10,10" Height="150" Width="350"/>
+
+        <!-- DataGrid for Category Table -->
+        <DataGrid Name="categoryDataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,370,10,10" Height="150" Width="350"/>
+    </Grid>
+</Window>
+
+
